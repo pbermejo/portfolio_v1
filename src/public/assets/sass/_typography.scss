@@ -1,0 +1,76 @@
+$text-sizes: (
+	h1: 2.7em,
+	h2: 1.8em,
+	h3: 1.8em,
+	h4: 1.333em,
+	h5: 1.111em,
+	p: 1em
+);
+
+@each $size, $value in $text-sizes {
+	#{$size} {
+	  font-size: #{$value};
+	  line-height: 1.2em;
+	}
+}
+h1{
+	margin-bottom: var(--space-xs);
+	background-color: var(--theme-background-color);
+	transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+h2{
+	font-weight: var(--text-weight-light);
+	background-color: var(--theme-background-color);
+	transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+h3{
+	margin-bottom: var(--space-xs);
+	background-color: var(--theme-background-color);
+	transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+h4 {
+	font-weight: var(--text-weight-normal);
+	margin-bottom: var(--space-xs);
+}
+h5{
+	color: var(--color-secondary);
+}
+ul{
+	line-height: 1.2em;
+}
+
+p {
+	font-weight: var(--text-weight-light);
+	max-width: 45rem;
+	margin: auto;
+	line-height: 1.2em;
+	&.codepen{
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		border-bottom: 3px solid var(--color-primary);
+	}
+}
+a{
+	text-decoration: none;
+}
+p a{
+	color: var(--color-secondary);
+	background-color: var(--color-primary);
+	transition: all 0.1s ease-out;
+	@extend %radius;
+	&{
+		box-shadow: var(--space-xxxs) 0 0 var(--color-primary), calc(-1 * var(--space-xxxs)) 0 0 var(--color-primary);
+		> svg {
+			fill: var(--color-secondary);
+		}
+	}
+	&:hover{
+		color: var(--color-primary);
+		background-color: var(--color-secondary);
+		box-shadow: var(--space-xxxs) 0 0 var(--color-secondary), calc(-1 * var(--space-xxxs)) 0 0 var(--color-secondary);
+		transition: all 0.1s ease-out;
+		> * {
+			fill: var(--color-primary);
+		}
+	}
+}

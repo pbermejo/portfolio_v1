@@ -1,0 +1,29 @@
+.button{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	font-weight: var(--text-weight-medium);
+	color: var(--color-secondary);
+	padding: var(--space-xxs) var(--space-xs);
+	background-color: var(--color-primary);
+	box-shadow: calc(-1*var(--space-xxxs)) var(--space-xxxs) 0 var(--color-secondary);
+	transition: all 0.1s ease-out;
+	@extend %radius;
+	transition: all 0.1s ease-out;
+	svg + *{
+		margin-left: var(--space-xxxs);
+	}
+	svg path{
+		fill: var(--color-secondary);
+	}
+	&:hover{
+		background-color: var(--color-secondary);
+		box-shadow: calc(-1*var(--space-xxxs)) var(--space-xxxs) 0 var(--color-primary);
+		color: var(--color-primary);
+		transition: all 0.1s ease-out;
+		svg path{
+			fill: var(--color-primary);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(2em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

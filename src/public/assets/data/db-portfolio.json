@@ -1,0 +1,157 @@
+{
+    "projects": [
+        {
+            "title": "Vírgula",
+            "description": "Branding / Logotipo / Editorial",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/virgula-stationery.jpg"]
+            }]
+        },
+        {
+            "title": "Awesome interactive background",
+            "description": "Experimentos / Web",
+            "assets": [{
+                "type": "codepen",
+                "url": ["PMGxqg"]
+            }]
+        },
+        {
+            "title": "Boatius, the social sailing",
+            "description": "Branding / Logotipo / Plataforma para compartir barco",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/boatius-mobile-splash-screen.jpg"]
+            }]
+        },
+        {
+            "title": "SVG menu animation",
+            "description": "Experimentos / Web",
+            "assets": [{
+                "type": "codepen",
+                "url": ["maYMOx"]
+            }]
+        },
+        {
+            "title": "Compring",
+            "description": "Branding / Logotipo / Comparador de ofertas",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/compring-business-cards.jpg"]
+            }]
+        },
+        {
+            "title": "VA.cat",
+            "description": "Branding / Logotipo / Plataforma de envío seguro de archivos",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/vacat-mobile-splash-screen.jpg"]
+            }]
+        },
+        {
+            "title": "Wavy loader",
+            "description": "Experimentos / Web",
+            "assets": [{
+                "type": "codepen",
+                "url": ["rdePpJ"]
+            }]
+        },
+        {
+            "title": "Accesible checkbox",
+            "description": "Experimentos / Web",
+            "assets": [{
+                "type": "codepen",
+                "url": ["eLjzKj"]
+            }]
+        },
+        {
+            "title": "Anima",
+            "description": "Branding / Papelería / Agencia de publicidad",
+            "assets": [{
+                "type": "image",
+                "url": [
+                    "assets/images/anima-media-square-trifold.jpg",
+                    "assets/images/anima-media-business-cards.jpg"
+                    ]
+                }]
+        },
+        {
+            "title": "Velaquí.gal",
+            "description": "Branding / Logotipo / Plataforma de envío seguro de archivos",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/velaqui-mobile-splash-screen.jpg"]
+            }]
+        },
+        {
+            "title": "Tomatransfer",
+            "description": "Branding / Logotipo / Plataforma de envío seguro de archivos",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/tomatransfer-mobile-splash-screen.jpg"]
+            }]
+        },
+        {
+            "title": "Comunidad de Madrid",
+            "description": "Papelería / Comunidad de Madrid",
+            "assets": [{
+                "type": "image",
+                "url": [
+                    "assets/images/ccmad-guia-recursos-mujeres-01.jpg",
+                    "assets/images/ccmad-guia-recursos-mujeres-02.jpg"
+                ]
+            }]
+        },
+        {
+            "title": "Ilustración de cuento para niños",
+            "description": "Diseño / Ilustración / Cuento sobre igualdad y diversidad para niños de la Comunidad de Madrid",
+            "assets": [{
+                "type": "image",
+                "url": [
+                    "assets/images/cuento-infantil-colegueando-02.jpg",
+                    "assets/images/cuento-infantil-colegueando-01.jpg"
+                ]
+            }]
+        },
+        {
+            "title": "Black Sun Records",
+            "description": "Branding / Logotipo / Sello de música independiente",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/blacksun-records-stationery.jpg"]
+            }]
+        },
+        {
+            "title": "Watchmen",
+            "description": "Inspiración / Fondo de pantalla sobre el cómic de Watchmen",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/watchmen.jpg"]
+            }]
+        },
+        {
+            "title": "Mac Metal",
+            "description": "Inspiración / Fondo de pantalla sobre los iMacs Aluminium de 2007",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/mac_metal.jpg"]
+            }]
+        },
+        {
+            "title": "Brainstorming",
+            "description": "Inspiración / Camiseta para creativos",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/brainstorming-tshirt.jpg"]
+            }]
+        },
+        {
+            "title": "Tattoo",
+            "description": "Inspiración / Camiseta basada en los tattoos old school",
+            "assets": [{
+                "type": "image",
+                "url": ["assets/images/heart-tshirt.jpg"]
+            }]
+        }        
+    ]
+}

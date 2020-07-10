@@ -1,0 +1,28 @@
+.logo {
+  color: inherit;
+  font-size: var(--text-md);
+  font-weight: var(--text-weight-medium);
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  color: var(--color-active);
+  font-size: var(--text-lg);
+  text-shadow: 0.15em 0.15em 0.1em var(--text-shadow);
+}
+.logo svg {
+  height: var(--text-md);
+  fill: var(--color-active);
+}
+.logo-codepen {
+  fill: var(--text-color);
+  width: var(--text-md);
+  height: var(--text-md);
+}
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2em;
+}

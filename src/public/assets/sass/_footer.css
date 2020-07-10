@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  font-size: var(--text-md);
+  padding: var(--space-lg) var(--space-sm);
+}
+footer p + p {
+  margin-top: var(--space-sm);
+}
+footer a {
+  font-size: var(--text-sm);
+}

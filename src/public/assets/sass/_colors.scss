@@ -1,0 +1,32 @@
+:root{
+	--color-dark: hsl(220, 15%, 25%);
+	--color-light: rgb(255, 250, 245);
+	--color-primary: mediumspringgreen;
+	--color-secondary: teal;
+	--color-tertiary: tomato;
+	--color-active: var(--color-primary);
+	
+	--theme-mode-light: "Tema claro";
+	--theme-mode-dark: "Tema oscuro";
+	--theme: var(--theme-mode-light);
+	--theme-color: var(--color-dark);
+	--theme-background-color: var(--color-light);
+	--text-shadow: hsla(50, 10%, 20%, .3);
+	
+	--link-text-color: var(--theme-color);
+	--link-text-color-hover: var(--color-primary);
+	--link-text-background-color: var(--color-primary);
+	--link-text-background-color-hover: var(--color-primary);
+	--link-text-background-color-active: var(--color-primary);
+	
+	--nav-text-color: var(--link-text-color);
+	--nav-text-color-hover: var(--link-text-color-hover);
+	--nav-text-background-color: transparent;
+	--nav-text-background-color-hover: var(--link-text-background-color-hover);
+	--nav-text-background-color-active: var(--link-text-color-hover);
+}
+@media (prefers-color-scheme: dark){
+	--theme: var(--theme-mode-dark);
+	--theme-color: var(--color-light);
+	--theme-background-color: var(--color-dark);
+}

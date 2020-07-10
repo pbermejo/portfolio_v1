@@ -1,0 +1,30 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "A portfolio of Pablo Bermejo",
+  "main": "index.js",
+  "repository": "gog",
+  "author": "Pablo Bermejo",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^5.1.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "browserslist": "^4.8.2",
+    "caniuse-lite": "^1.0.30001017"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  }
+}
