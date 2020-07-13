@@ -68,6 +68,12 @@ function clear_cache(done) {
 	return cache.clearAll(done)
 }
 
+// Adds CNAME to dist
+function add_CNAME(){
+	return src('src/CNAME')
+	.pipe(dest('dist'));
+}
+
 function watch_files(done) {
 watch('src/**/*.njk', nunjucks)
 watch('src/**/*.json', nunjucks)
