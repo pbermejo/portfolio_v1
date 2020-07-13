@@ -70,7 +70,7 @@ function clear_cache(done) {
 
 // Adds CNAME to dist
 function add_CNAME(){
-	return src('src/CNAME')
+	return src('CNAME')
 	.pipe(dest('dist'));
 }
 
@@ -83,4 +83,4 @@ done()
 }
 
 exports.start = series(clear_cache, browser_sync, sassify, nunjucks, watch_files);
-exports.build = series(clean_dist, sassify, css, images, html);
+exports.build = series(clean_dist, sassify, css, images, html, add_CNAME);
