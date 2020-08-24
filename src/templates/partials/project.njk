@@ -5,7 +5,7 @@
 	{% if asset.type == "image" %}
 		<figure>
 			{% for url in asset.url %}
-			<img src="{{url}}" alt="{{url}}" />
+			<img src="{{url}}" loading="lazy" alt="{{url}}" />
 			{% endfor %}
 		</figure>
 	{% else %}
